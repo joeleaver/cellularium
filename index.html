@@ -949,6 +949,7 @@
 
         function createToolbar() {
             const toolbar = document.getElementById('toolbar');
+            toolbar.innerHTML = '';
             
             for (let i = 0; i < ELEMENT_NAMES.length; i++) {
                 const btn = document.createElement('button');
